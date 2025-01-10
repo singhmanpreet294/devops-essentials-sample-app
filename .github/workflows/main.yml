@@ -19,7 +19,7 @@ jobs:
         export-secrets-to-outputs: true
         export-secrets-to-environment: true
         static-secrets: |
-          - name: "/prod/awss3/awstest"
+          - name: "/prod/awss3/awstest1"
             output-name: "my_first_secret"
         api-url: "https://bootcamp.manpds.com/akeyless-api/v2/"
    
